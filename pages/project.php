@@ -4,7 +4,7 @@
 
 ?>
 
-<?php require_once 'templates/header.php' ?>
+<?php require_once '../templates/header.php' ?>
     <div class="mt-5 mb-5 ml-auto mr-auto" style="max-width: 30rem;">
 
         <?php if(isset($_SESSION['message'])) { ?>
@@ -24,4 +24,4 @@
 
     </div>
 
-<?php require_once 'templates/footer.php' ?>
+<?php require_once '../templates/footer.php' ?>
