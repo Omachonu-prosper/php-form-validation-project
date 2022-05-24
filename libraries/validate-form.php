@@ -50,7 +50,7 @@
         if(!array_filter($errors)) {
             // Redirect the user to the project page
             $_SESSION['message'] = 'Your form has been submitted successfully';
-            header('location: project.php');
+            header('location: pages/project.php');
         }
         
     }
